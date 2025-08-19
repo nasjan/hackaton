@@ -1,0 +1,20 @@
+Create a simple Node.js CLI app called "Random Idea Generator".
+
+Requirements:
+- When starting, ask the user to choose a category: roast, challenge, workout, party.
+- Commands:
+  (g) Generate → pick a random idea from the chosen category
+  (v) Variation → send the current idea to Ollama (http://localhost:11434/api/generate, model: llama3) and return a satirical, edgy rewritten version
+  (s) Save → store the current idea into a session list
+  (l) List → print all saved ideas
+  (c) Change → change category
+  (q) Quit
+
+Details:
+- Data comes from a separate file `data.js` that exports 4 categories with a few example ideas (title, description, howTo, spice).
+- Use Node.js built-in modules only (`readline/promises`, `fs` if needed). No external libraries.
+- Handle errors gracefully: if Ollama is not available, print a message and continue.
+- Keep the CLI output clear and fun (use emojis for spice if you like).
+
+Create files: `package.json`, `data.js`, `cli.js`, `.gitignore`, `README.md`.
+Add npm start script to run `cli.js`.

@@ -1,0 +1,17 @@
+{
+  "name": "random-idea-generator",
+  "version": "1.0.0",
+  "description": "A CLI app that generates random ideas from different categories",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "ideas",
+    "generator"
+  ],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,155 @@
+// data.js
+export const ideas = {
+  roast: [
+    {
+      title: "Tech Roast",
+      description: "Roast a friend's computer for being painfully slow.",
+      howTo: "Compare it to dial-up or a potato with Wi-Fi.",
+      spice: "🔥"
+    },
+    {
+      title: "Fashion Critic",
+      description: "Give a mock runway review of someone's outfit.",
+      howTo: "Use over-the-top haute couture jargon.",
+      spice: "💅"
+    },
+    {
+      title: "Chef’s Disaster",
+      description: "Pretend you’re a TV judge critiquing their cooking.",
+      howTo: "Describe textures like a dramatic food blogger.",
+      spice: "🍽️"
+    },
+    {
+      title: "Procrastination Awards",
+      description: "Roast how long they take to start anything.",
+      howTo: "Hand out imaginary trophies for 'Best Delay'.",
+      spice: "⏳"
+    },
+    {
+      title: "Fitness Influencer (Not)",
+      description: "Tease their gym talk versus gym attendance.",
+      howTo: "Quote their 'Monday start' plan from three months ago.",
+      spice: "🏋️"
+    },
+    {
+      title: "Buggy Brain",
+      description: "Joke that their memory needs a software patch.",
+      howTo: "Offer release notes for version 'Them 2.0'.",
+      spice: "🧠"
+    }
+  ],
+  challenge: [
+    {
+      title: "Cold Shower Week",
+      description: "Start each morning with a 60-second cold shower for 7 days.",
+      howTo: "Set a daily reminder; track time with a stopwatch.",
+      spice: "❄️"
+    },
+    {
+      title: "No Sugar 72",
+      description: "Go sugar-free for 72 hours.",
+      howTo: "Read labels; replace snacks with nuts or fruit.",
+      spice: "🚫🍬"
+    },
+    {
+      title: "Inbox Zero Sprint",
+      description: "Clear your email inbox to zero today.",
+      howTo: "Archive aggressively; create three action labels.",
+      spice: "📬"
+    },
+    {
+      title: "10K Steps Surprise",
+      description: "Hit 10,000 steps without a single 'purposeful' walk.",
+      howTo: "Use stairs, park far, pace on calls.",
+      spice: "👟"
+    },
+    {
+      title: "Learn a 30s Trick",
+      description: "Learn and perform a 30-second magic or party trick.",
+      howTo: "Pick one from YouTube and practice 10 minutes.",
+      spice: "🪄"
+    },
+    {
+      title: "One-Take Video",
+      description: "Record a single-take 60-second update and send it.",
+      howTo: "No editing; just clarity and confidence.",
+      spice: "🎥"
+    }
+  ],
+  workout: [
+    {
+      title: "Push-Up Pyramid",
+      description: "Climb from 1 to 10 push-ups, then back down.",
+      howTo: "Rest 20–30s between rungs; keep form strict.",
+      spice: "💪"
+    },
+    {
+      title: "Stair Sprints",
+      description: "Run a flight up and down 10 times.",
+      howTo: "Start steady, finish fast; hold the rail on turns.",
+      spice: "🏃"
+    },
+    {
+      title: "Core 8",
+      description: "8-minute core: plank, side planks, hollow hold.",
+      howTo: "40s on / 20s off; repeat twice.",
+      spice: "🧱"
+    },
+    {
+      title: "Grease the Groove",
+      description: "Do 5 quality pull-ups every hour for 5 hours.",
+      howTo: "Set timers; stop before failure.",
+      spice: "🧗"
+    },
+    {
+      title: "Mobility Reset",
+      description: "Hips, T-spine, ankles in a 12-minute flow.",
+      howTo: "3 moves x 1 min per side; breathe slow.",
+      spice: "🧘"
+    },
+    {
+      title: "Deck of Cards",
+      description: "Assign each suit a move; draw 10 cards.",
+      howTo: "Hearts=push-ups, Spades=squats, Clubs=burpees, Diamonds=sit-ups.",
+      spice: "🃏"
+    }
+  ],
+  party: [
+    {
+      title: "Dance Dare",
+      description: "Challenge someone to dance to a bizarre song.",
+      howTo: "Pick something wildly off-genre; cheer loudly.",
+      spice: "🕺"
+    },
+    {
+      title: "Mystery Mocktail",
+      description: "Mix a drink and have others guess ingredients.",
+      howTo: "Use at least three juices or sodas; keep it safe.",
+      spice: "🍹"
+    },
+    {
+      title: "Two Truths, One Roast",
+      description: "Play Two Truths and a Lie, but witty.",
+      howTo: "Add a playful roast to each truth.",
+      spice: "🎤"
+    },
+    {
+      title: "Emoji Story",
+      description: "Tell a story using only emojis; others translate.",
+      howTo: "Keep it under 8 emojis for difficulty.",
+      spice: "🔤"
+    },
+    {
+      title: "Speed Playlist",
+      description: "Build a 5-song shared playlist in 5 minutes.",
+      howTo: "Everyone adds one track; no vetoes.",
+      spice: "🎶"
+    },
+    {
+      title: "Photo Scavenger",
+      description: "Snap pics of 5 silly prompts around the room.",
+      howTo: "Set a 7-minute timer; winner shares the album.",
+      spice: "📸"
+    }
+  ]
+};
